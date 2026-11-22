@@ -1,0 +1,7 @@
+# Build output
+.build/
+dist.noindex/
+.swiftpm/
+
+# macOS
+.DS_Store
