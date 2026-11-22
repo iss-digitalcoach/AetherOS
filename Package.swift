@@ -8,7 +8,6 @@ let package = Package(
         .executableTarget(
             name: "AetherOS",
             path: "Sources/AetherOS",
-            swiftSettings: [.swiftLanguageMode(.v6)],
             linkerSettings: [
                 // Embeds usage strings so microphone / speech / Finder prompts work for a bare executable.
                 .unsafeFlags(["-Xlinker", "-sectcreate", "-Xlinker", "__TEXT",
